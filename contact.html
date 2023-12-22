@@ -4,9 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <img style="display: flex; justify-content: center; height: 50%; width: 50%; margin-left: 300px;" src="img/404.jpeg" alt="">
+<body style="background-color: black; font-family: poppins, sans-serif; align-items: center; background-image: url(img/proba.png); background-repeat: no-repeat;">
+    <header style="gap: 600px;" >
+        <div class="hbo">
+           <img src="img/HBO-LOGO.png" alt="">
+        </div>
+       
+   <ul class="navigacija" >
+   <li><a style=" color: aliceblue;  list-style-type: none;text-decoration: none;" href="#home">Home</a></li>
+   <li><a style=" color: aliceblue;  list-style-type: none; text-decoration: none;" href="epizode.html" target="_blank">Episodes</a></li>
+   <li><a style=" color: aliceblue;  list-style-type: none; text-decoration: none;" href="contact.html" target="_blank">Contact</a></li>
+   <li><a style=" color: aliceblue;  list-style-type: none;  text-decoration: none;" href="#about">About</a></li>
+   </ul>
+   </header>
+        
+    <div style="display: flex; flex-direction: row; align-items: center; margin-top: 100px; margin-left: 100px; border: 1px; border-color: aliceblue; gap: 80px;">
+            <div style="border: 1px; border-color: aliceblue; display: flex; flex-direction: column; color: aliceblue; height: 150px; width: 250px; align-items: center; ">
+            <p style="font-size: large; margin-left:-155px; margin-bottom: 80px;"> Welcome!</p>
+            <hr style="width: 50px; align-items: flex-start; margin-left: -3px;">
+            <p style="font-size: small; margin-top: 30px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button style="margin-top: 30px;  background-color: black; color: white; border: 2px solid white; height: 50px; width: 80px; margin-left: -166px;">Sign In!</button>
+            </div>
+            <div style="display: flex; flex-direction: column; height: 150px; width: 250px;">
+                <p style="color: aliceblue; font-size: large;">Log In</p>
+                <form style="display: flex; flex-direction: column; margin-top: 10px;">
+                    <label style="color: aliceblue; font-size: small;" for="name">korisnicko ime:</label>
+                    <input style="margin-bottom: 30px; height: 30px; width: 250px; background-color: #272829; color: aliceblue; border: none; border-radius: 5px;" type="text" id="name" name="firstname" placeholder="korisnicko ime">
+                
+                    <label style="color: aliceblue; font-size: small;" for="password">sifra</label>
+                    <input style="margin-bottom: 30px; height: 30px; width: 250px; background-color: #272829; color: aliceblue; border: none; border-radius: 5px;" type="password" id="sifra" name="sifra" placeholder="unesite sifru">
+                
+                    <label style="color: aliceblue; font-size: small;" for="country">Zemlja</label>
+                    <select style="margin-bottom: 30px; height: 30px; width: 250px; background-color: #272829; color: aliceblue; border: none; border-radius: 5px;" id="country" name="country">
+                      <option  value="Srbija">Srbija</option>
+                      <option value="BiH">BiH</option>
+                      <option value="HR">HR</option>
+                    </select>
+                  
+                    <input style="margin-bottom: 30px; height: 30px; width: 250px; background-color: #272829; color: aliceblue; border: none; border-radius: 5px;" type="submit" value="Submit">
+                  </form>
+
+            </div>
+    </div>
     
 </body>
 </html>
